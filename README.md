@@ -1,2 +1,2 @@
-E-commerce REST API in Go
+E-commerce REST API Using GO and Docker
 ```

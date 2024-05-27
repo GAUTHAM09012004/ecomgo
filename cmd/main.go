@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/GAUTHAM09012004/ecom/cmd/api"
+	"github.com/GAUTHAM09012004/ecom/configs"
+	"github.com/GAUTHAM09012004/ecom/db"
 	"github.com/go-sql-driver/mysql"
-	"github.com/sikozonpc/ecom/cmd/api"
-	"github.com/sikozonpc/ecom/configs"
-	"github.com/sikozonpc/ecom/db"
 )
 
 func main() {
-		cfg := mysql.Config{
+	cfg := mysql.Config{
 		User:                 configs.Envs.DBUser,
 		Passwd:               configs.Envs.DBPassword,
 		Addr:                 configs.Envs.DBAddress,

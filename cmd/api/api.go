@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/ecom/services/cart"
-	"github.com/sikozonpc/ecom/services/order"
-	"github.com/sikozonpc/ecom/services/product"
-	"github.com/sikozonpc/ecom/services/user"
+	"github.com/GAUTHAM09012004/ecom/services/cart"
+	"github.com/GAUTHAM09012004/ecom/services/order"
+	"github.com/GAUTHAM09012004/ecom/services/product"
+	"github.com/GAUTHAM09012004/ecom/services/user"
 )
 
 type APIServer struct {

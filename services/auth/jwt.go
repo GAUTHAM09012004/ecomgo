@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/GAUTHAM09012004/ecom/configs"
+	"github.com/GAUTHAM09012004/ecom/types"
+	"github.com/GAUTHAM09012004/ecom/utils"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/sikozonpc/ecom/configs"
-	"github.com/sikozonpc/ecom/types"
-	"github.com/sikozonpc/ecom/utils"
 )
 
 type contextKey string

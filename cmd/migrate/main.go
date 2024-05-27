@@ -4,13 +4,13 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/go-sql-driver/mysql" // mysql driver
+	"github.com/GAUTHAM09012004/ecom/configs"
+	"github.com/GAUTHAM09012004/ecom/db"
+	_ "github.com/go-sql-driver/mysql"
 	mysqlDriver "github.com/go-sql-driver/mysql"
 	"github.com/golang-migrate/migrate/v4"
 	mysqlMigrate "github.com/golang-migrate/migrate/v4/database/mysql"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
-	"github.com/sikozonpc/ecom/configs"
-	"github.com/sikozonpc/ecom/db"
 )
 
 func main() {

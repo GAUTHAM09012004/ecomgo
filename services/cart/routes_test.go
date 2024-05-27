@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/GAUTHAM09012004/ecom/types"
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/ecom/types"
 )
 
 var mockProducts = []types.Product{

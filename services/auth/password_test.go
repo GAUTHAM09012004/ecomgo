@@ -9,11 +9,9 @@ func TestHashPassword(t *testing.T) {
 	if err != nil {
 		t.Errorf("error hashing password: %v", err)
 	}
-
 	if hash == "" {
 		t.Error("expected hash to be not empty")
 	}
-
 	if hash == "password" {
 		t.Error("expected hash to be different from password")
 	}

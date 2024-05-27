@@ -5,14 +5,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gorilla/mux"
 	"github.com/GAUTHAM09012004/ecom/types"
+	"github.com/gorilla/mux"
 )
 
 func TestUserServiceHandlers(t *testing.T) {
 	userStore := &mockUserStore{}
 	handler := NewHandler(userStore)
-
 	t.Run("should fail if the user ID is not a number", func(t *testing.T) {
 		req, err := http.NewRequest(http.MethodGet, "/user/abc", nil)
 		if err != nil {

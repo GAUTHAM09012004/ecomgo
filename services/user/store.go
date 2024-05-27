@@ -20,7 +20,6 @@ func (s *Store) CreateUser(user types.User) error {
 	if err != nil {
 		return err
 	}
-
 	return nil
 }
 
